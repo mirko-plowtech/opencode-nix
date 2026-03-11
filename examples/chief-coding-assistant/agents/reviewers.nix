@@ -17,7 +17,7 @@ in
       description = reviewerDescription;
       mode = "subagent";
       model = "{env:OPENCODE_MODEL_REVIEW1}";
-      prompt = reviewerPrompt;
+      # prompt = reviewerPrompt;
       permission = reviewerPermission;
     };
 
@@ -25,7 +25,7 @@ in
       description = reviewerDescription;
       mode = "subagent";
       model = "{env:OPENCODE_MODEL_REVIEW2}";
-      prompt = reviewerPrompt;
+      # prompt = reviewerPrompt;
       permission = reviewerPermission;
     };
 
@@ -33,7 +33,7 @@ in
       description = reviewerDescription;
       mode = "subagent";
       model = "{env:OPENCODE_MODEL_REVIEW3}";
-      prompt = reviewerPrompt;
+      # prompt = reviewerPrompt;
       permission = reviewerPermission;
     };
   };
