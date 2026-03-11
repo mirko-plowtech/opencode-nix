@@ -55,7 +55,8 @@ _:
     # data-processor — specialized data processing agent (uses vision model)
     data-processor = {
       model = "ollama/llava-v1.6-34b";
-      prompt = "{file:./prompts/data-processor.md}";
+      # FIXME: Create data-processor.md and use a proper path!
+      # prompt = "{file:./prompts/data-processor.md}";
       permission = {
         "*" = "deny";
         # NOTE: skill sub-permissions (skill.data-import-tool) not yet modeled
