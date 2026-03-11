@@ -40,8 +40,7 @@ _:
       mode = "subagent";
       model = "{env:OPENCODE_MODEL_EXPLORE_BIG}";
       # FIXME: Create type-precision-analyst.md and use a proper path!
-      # prompt = "{file:./SYSTEM_PROMPT.md}\n{file:agents/type-precision-analyst.md}";
-      prompt = "{file:./SYSTEM_PROMPT.md}\n";
+      # prompt = "{file:agents/type-precision-analyst.md}";
       permission = {
         edit = "deny";
         bash = "allow";

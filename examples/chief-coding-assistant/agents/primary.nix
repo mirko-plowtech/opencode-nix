@@ -6,7 +6,7 @@ _:
     # chief — the primary orchestrating agent
     chief = {
       mode = "primary";
-      prompt = "{file:./SYSTEM_PROMPT.md}";
+      prompt = builtins.readFile ../SYSTEM_PROMPT.md;
       permission = {
         question = "allow";
         external_task = "allow";
