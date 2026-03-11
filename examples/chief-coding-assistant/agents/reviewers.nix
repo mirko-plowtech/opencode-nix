@@ -3,7 +3,8 @@ _:
 
 let
   reviewerDescription = "Expert code review specialist. Proactively reviews code for quality, security, and maintainability";
-  reviewerPrompt = "{file:agents/code-reviewer.md}";
+  # FIXME: Create code-reviewer.md and use a proper path!
+  # reviewerPrompt = "{file:agents/code-reviewer.md}";
   reviewerPermission = {
     edit = "deny";
     question = "deny";
