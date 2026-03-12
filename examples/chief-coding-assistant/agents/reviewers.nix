@@ -3,7 +3,7 @@ _:
 
 let
   reviewerDescription = "Expert code review specialist. Proactively reviews code for quality, security, and maintainability";
-  reviewerPrompt = builtins.readFile "./prompts/code-reviewer.md";
+  reviewerPrompt = builtins.readFile ./prompts/code-reviewer.md;
   reviewerPermission = {
     edit = "deny";
     question = "deny";
