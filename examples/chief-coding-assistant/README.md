@@ -21,7 +21,7 @@ Features:
 | `OPENCODE_MODEL_EXPLORE` | Exploration scouts (e.g. `anthropic/claude-haiku-4-5`) |
 | `OPENCODE_MODEL_EXPLORE_BIG` | Deep analysis (e.g. `anthropic/claude-sonnet-4-5`) |
 | `OPENCODE_MODEL_GENERAL` | General-purpose agent |
-| `OPENCODE_MODEL_IMPLEMENTER_BIG` | Large implementers (Nix, CUDA, Rust guru) |
+| `OPENCODE_MODEL_IMPLEMENTER_BIG` | Large implementers (Nix, CUDA, TLA+) |
 | `OPENCODE_MODEL_IMPLEMENTER_SMALL` | Fast implementers (Rust, Haskell, Python) |
 | `OPENCODE_MODEL_REVIEW1/2/3` | Three parallel code reviewer instances |
 | `OPENCODE_MODEL_WEB` | Web search agent |

@@ -293,11 +293,11 @@
       "model": "{env:OPENCODE_MODEL_IMPLEMENTER_SMALL}",
       "prompt": "{file:./SYSTEM_PROMPT.md}\n{file:agents/rust-expert.md}"
     },
-    "rust-guru": {
-      "description": "Rust guru for complex problems. Use ONLY when rust-expert fails",
+    "tla-guru": {
+      "description": "TLA+ expert formal model checker. Use for iterative TLA+ modeling, TLC runs, state-space control, and proving algorithm soundness with minimal bounded exploration.",
       "mode": "subagent",
       "model": "{env:OPENCODE_MODEL_IMPLEMENTER_BIG}",
-      "prompt": "{file:./SYSTEM_PROMPT.md}\n{file:agents/rust-expert.md}"
+      "prompt": "{file:./SYSTEM_PROMPT.md}\n{file:agents/tla-guru.md}"
     },
     "type-precision-analyst": {
       "description": "Analyzes algebraic types for precision issues using Prolog-based cardinality analysis. Given a spec (valid states) and optional type, reports precision metrics and suggests improvements.",
